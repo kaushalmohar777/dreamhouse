@@ -1,0 +1,10 @@
+.get-in-touch-img {
+    line-height: 0;
+    width: 68.5%;
+}
+section.get-in-touch-main {
+    display: flex;
+}
+.get-in-touch-img img{
+    width: 100%;
+}

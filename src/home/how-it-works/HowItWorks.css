@@ -1,0 +1,50 @@
+.how-it-works-top {
+    background: #051b31;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 126px;
+}
+.how-it-works-top h3 {
+    margin: 0;
+    line-height: 1;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
+.how-it-works-bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: -86px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 82px;
+}
+.how-it-works-steps {
+    width: 19%;
+}
+.how-it-works-steps h3 {
+    margin: 0;
+    background: #04748e;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 5px 5px 0px 0px;
+}
+.works-steps-img {
+    min-height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+}
+.how-it-works-steps p {
+    font-size: 19px;
+    color: #292929;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 12px;
+}

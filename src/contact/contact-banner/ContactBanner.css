@@ -1,0 +1,10 @@
+.contact-banner-sec {
+    line-height: 0;
+}
+.contact-banner-sec img {
+    max-width: 100%;
+    width: 100%;
+}
+section.contact-banner-main {
+    border-top: 1px solid #ccc;
+}

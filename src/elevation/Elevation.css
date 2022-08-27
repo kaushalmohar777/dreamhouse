@@ -1,0 +1,83 @@
+section.elevations-section {
+    padding: 70px 15px;
+    border-top: 1px solid #ccc;
+}
+.elevations-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+section.elevations-section .heading-plan {
+    margin-bottom: 5rem !important;
+    max-width: 85%;
+}
+.elevations-box .cat-name {
+    width: 100%;
+    margin: 0 12px 2rem;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.elevations-box .btn-view-more {
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+}
+.elevations-box .btn-view-more a.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    max-width: 197px;
+    text-align: center;
+    background: #ffa824;
+    padding: 17px 0;
+    font-family: 'Mukta', sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    width: 100%;
+}
+section.plan-section .row {
+    margin-bottom: 5rem;
+}
+.elevations-box .col-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+}
+.elevations-box .col-grid .inner-ele-box img {
+    width: 100%;
+    transition: all 0.5s ease;
+    transform: scale(1.0);
+}
+.elevations-box .col-grid .inner-ele-box:hover img {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.elevations-box .col-grid .inner-ele-box {
+    width: 100%;
+    margin: 0 15px;
+    box-shadow: 3px 3px 7px 3px rgb(0 0 0 / 17%);
+    padding: 5px 5px 2px;
+    overflow: hidden;
+}
+section.elevations-section .row {
+    margin-bottom: 4rem;
+}
+section.elevations-section .row:last-child {
+    margin-bottom: 2rem;
+}
+.elevations-cat-list .col-grid {
+    margin-bottom: 25px;
+}
+.elevations-cat-list .cat-name h1 {
+    text-align: center;
+    color: #2e2e2e;
+    margin: 0;
+    line-height: 1;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}

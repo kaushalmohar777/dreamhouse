@@ -1,0 +1,127 @@
+.contact-main-top {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+.contact-inner-top {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-top-list {
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    padding: 24px 30px;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 7%);
+    text-align: center;
+}
+.contact-top-list i {
+    height: 60px;
+    width: 60px;
+    background: #051b31;
+    color: #fff;
+    line-height: 57px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #ffa824;
+    font-size: 25px;
+    transition: 700ms;
+}
+.contact-top-list h3 {
+    color: #ffa824;
+    font-size: 26px;
+    margin-top: 15px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contact-top-list p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.contact-top-list p a {
+    color: #000;
+    text-decoration: none;
+}
+.contact-top-list p a:hover {
+    color: #ffa824;
+    transition: 500ms;
+}
+.contact-top-list i:hover {
+    background: #ffa824;
+    border: 2px solid #051b31;
+    transition: 700ms;
+}
+.contact-inner-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form, .contact-map {
+    width: 48%;
+}
+.google-map-code {
+    text-align: right;
+}
+.contact-main-bottom {
+    padding: 60px 0;
+}
+.google-map-code iframe {
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+    padding: 15px 15px;
+}
+.contact-form-row1, .contact-form-row2 {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form h1 {
+    color: #000000;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.contact-form-row1 p {
+    width: 31%;
+}
+.contact-form-row2 p {
+    width: 48%;
+}
+.contact-form-inner p {
+    margin-bottom: 18px;
+}
+.contact-form-inner p input, .contact-form-row3 p textarea {
+    height: 45px;
+    width: 100%;
+    border-radius: 0;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #000;
+    outline: none;
+}
+.contact-form-row3 p textarea {
+    height: 120px;
+    padding-top: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+.contact-form-row3 p input[type="submit"] {
+    padding: 0;
+    border: 0;
+    background: #ffa824;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact-form {
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+    padding: 15px 15px;
+}
+.contact-form-row3 p:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,53 @@
+section.project-completed-main {
+    background: #f4faf0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.completed-title h3 {
+    margin: 0;
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.completed-inner {
+    background: #fff;
+    text-align: center;
+    min-height: 290px;
+    border-radius: 10px;
+}
+.project-completed-size {
+    max-width: 1775px;
+    margin: 0 auto;
+    position: relative;
+}
+.completed-img {
+    min-height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.completed-inner h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2e2e2e;
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+.completed-inner p {
+    color: #04748e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+.project-completed-size .swiper-button-prev::after, .project-completed-size .swiper-button-next::after {
+    color: #000;
+}
+.completed-img img {
+    max-width: 100%;
+}
+.completedSwiper {
+    padding: 0 40px;
+}

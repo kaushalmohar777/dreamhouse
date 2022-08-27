@@ -1,0 +1,44 @@
+section.complete-customized-main {
+    background-size: cover;
+    background-position: center;
+    padding-top: 192px;
+    padding-bottom: 136px;
+}
+.complete-customized-inner {
+    text-align: center;
+}
+.complete-customized-inner h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    margin-bottom: 29px;
+}
+.complete-customized-inner h3 strong {
+    font-weight: bold;
+    color: #ffa824;
+    font-size: 69px;
+}
+.customized-btn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 422px;
+    margin: 0 auto;
+}
+.customized-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    width: 197px;
+    text-align: center;
+    background: #ffa824;
+    padding: 17px 0;
+    font-family: 'Mukta', sans-serif;
+    line-height: 1;
+    font-weight: 500;
+}
+.customized-btn .customized-btn-right a {
+    background: #04748e;
+}

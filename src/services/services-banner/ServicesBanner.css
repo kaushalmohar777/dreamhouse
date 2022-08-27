@@ -1,0 +1,10 @@
+.services-banner-sec {
+    line-height: 0;
+}
+.services-banner-sec img {
+    max-width: 100%;
+    width: 100%;
+}
+section.services-banner-main {
+    border-top: 1px solid #ccc;
+}

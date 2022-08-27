@@ -1,0 +1,53 @@
+.whytogo-title h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+.whytogo-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whytogo-left, .whytogo-right {
+    width: 50%;
+}
+.whytogo-img {
+    line-height: 0;
+}
+.whytogo-inner.swift-inner, .whytogo-inner.quality-inner {
+    flex-direction: row-reverse;
+    padding: 70px 0;
+}
+.whytogo-img {
+    max-width: 550px;
+    height: 400px;
+}
+.whytogo-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+    padding: 15px 15px;
+}
+.whytogo-content h3 {
+    color: #000000;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.whytogo-content p {
+    color: #494949;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+.whytogo-inner.swift-inner .whytogo-left, .whytogo-inner.quality-inner .whytogo-left {
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,28 @@
+.home-section-two-inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.home-section-two {
+    padding: 50px 0;
+}
+section.home-section-two .container-size {
+    max-width: 1357px;
+}
+.home-two-list {
+    width: 22%;
+    border: 1px solid #e0e0e0;
+    padding: 24px 0;
+    -webkit-box-shadow: 0px 10px 20px rgb(0 0 0 / 7%);
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 7%);
+}
+.home-two-list p {
+    color: #0e0e0e;
+    font-size: 24px;
+    margin-top: 5px;
+    line-height: 1;
+    font-weight: 400;
+}
+.home-two-list a {
+    text-decoration: none;
+}

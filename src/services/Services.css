@@ -1,0 +1,42 @@
+.services-list-sec {
+    background: #f9f9f9;
+    padding: 60px 0;
+}
+.services-list-sec h1.Services-title {
+    text-align: center;
+    margin: 0;
+    color: #2e2e2e;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+.services-list-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services-list-box {
+    width: 23%;
+    margin-bottom: 40px;
+}
+.services-list-img {
+    line-height: 0;
+    height: 290px;
+}
+.services-list-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+    padding: 6px;
+}   
+.services-list-box h3 {
+    margin: 0;
+    text-align: center;
+    color: #151515;
+    font-size: 22px;
+    margin-top: 11px;
+    font-weight: 400;
+}

@@ -1,0 +1,10 @@
+.about-banner-sec {
+    line-height: 0;
+}
+.about-banner-sec img {
+    max-width: 100%;
+    width: 100%;
+}
+section.about-banner-main {
+    border-top: 1px solid #ccc;
+}

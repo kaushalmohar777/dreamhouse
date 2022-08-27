@@ -1,0 +1,40 @@
+.interior-bgImg {
+    line-height: 0;
+}
+.interior-bgImg img {
+    width: 100%;
+}
+.interior-inner {
+    position: relative;
+}
+.interior-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.interior-content h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1;
+}
+.interior-content h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 4px;
+}
+.interior-content a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 20px;
+}
+.interior-main .swiper-button-prev::after, .interior-main .swiper-button-next::after {
+    color: #fff;
+}

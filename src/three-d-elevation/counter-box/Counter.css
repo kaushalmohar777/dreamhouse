@@ -1,0 +1,28 @@
+.counter-inner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1112px;
+    margin: auto;
+}
+.counter-inner .counter-box {
+    text-align: center;
+    width: 22%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 15px;
+    background: #f3f3f3;
+    border-radius: 20px;
+    box-shadow: 4px 5px 8px rgb(0 0 0 / 20%);
+    transition: all 0.5s ease;
+}
+.counter-inner .counter-box:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
+}
+.counter-box h4 {
+    margin: 15px 0px 5px;
+    font-size: 36px;
+}
+.counter-box img {
+    max-width: 70px;
+}

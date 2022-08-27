@@ -1,0 +1,85 @@
+.header-top-section {
+    background: #051b31;
+    padding: 15px 0;
+}
+.header-top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-left p {
+    color: #fff;
+    line-height: 1;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+}
+.header-top-right ul li {
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 1;
+}
+.header-top-right ul li:last-child {
+    margin-right: 0;
+}
+.header-top-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.header-top-right ul li a img {
+    line-height: 0;
+    display: inline-block;
+    margin-right: 5px;
+}
+.header-top-right ul {
+    display: flex;
+    align-items: center;
+}
+.header-top-right ul li:not(:first-child) a img {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.header-top-right ul li:first-child a img {
+    position: relative;
+    top: 2px;
+}
+.header-bottom-section {
+    padding: 22px 0;
+}
+.header-top-right ul li a:hover, .header-bottom-right ul li a:hover span {
+    color: #ffa824;
+    transition: 500ms;
+}
+.header-bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bottom-right ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 57px;
+}
+.header-bottom-right ul li:last-child {
+    margin-right: 0px;
+}
+.header-bottom-right ul li a {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-bottom-right ul li a span {
+    display: block;
+    width: 100%;
+    color: #242424;
+    line-height: 1;
+    margin-top: 7px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}

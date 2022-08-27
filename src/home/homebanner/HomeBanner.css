@@ -1,0 +1,47 @@
+section.home-banner-main {
+    padding-top: 227px;
+    padding-bottom: 135px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dreamhousemakerz.com/production/wp-content/uploads/2022/07/home-banner-1.png);
+}
+.home-banner-inner {
+    text-align: center;
+}
+.home-banner-inner p {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+.home-banner-inner h1 {
+    color: #fff;
+    font-size: 90px;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.home-banner-inner h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.home-banner-inner a {
+    display: inline-block;
+    background: #ffa824;
+    padding: 18px 43px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Mukta', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}

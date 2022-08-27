@@ -1,0 +1,22 @@
+ul.postimg-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.postimg-list li {
+    width: 100%;
+    max-width: 33%;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.postimg-list img {
+    width: 100%;
+    max-width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+section.interior-design-main h3 {
+    text-transform: capitalize;
+}

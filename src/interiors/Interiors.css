@@ -1,0 +1,49 @@
+.interiors-list-sec h1.interiors-title {
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.interiors-list-sec {
+    background: #f9f9f9;
+    padding: 70px 0;
+}
+.interiors-list-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.interiors-list-box {
+    width: 31.2%;
+    margin: 30px 15px;
+}
+.interiors-list-img {
+    line-height: 0;
+    height: 290px;
+}
+.interiors-list-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 12%);
+    background: #fff;
+    padding: 6px;
+}   
+.interiors-list-box h3 {
+    margin: 0;
+    text-align: center;
+    color: #151515;
+    font-size: 22px;
+    margin-top: 11px;
+    font-weight: 400;
+}
+.interiors-list-box h3 a {
+    text-decoration: none;
+    color: #151515;
+}

@@ -1,0 +1,42 @@
+section.client-says-main {
+    background: #effdff;
+    padding-top: 100px;
+    padding-bottom: 112px;
+}
+.client-says-size {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+.client-says-inner {
+    max-width: 885px;
+    margin: 0 auto;
+    text-align: center;
+}
+.client-says-inner h3 {
+    color: #191919;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 39px;
+    margin-bottom: 28px;
+}
+.client-says-inner p, .client-says-inner h4 {
+    color: #191919;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.client-says-inner h4 {
+    margin: 0;
+    color: #1d1d1d;
+    margin-top: 22px;
+}
+.client-says-size .swiper-button-prev::after, .client-says-size .swiper-button-next::after {
+    display: none;
+}
+.client-says-size .swiper-button-prev {
+    background-image: url(images/arrow-left.png);
+}
+.client-says-size .swiper-button-next {
+    background-image: url(images/arrow-right.png);
+}

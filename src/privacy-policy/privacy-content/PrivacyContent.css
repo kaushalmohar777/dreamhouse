@@ -1,0 +1,15 @@
+.text-body-container h3 {
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.text-body-container p {
+    color: #494949;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
